@@ -1,4 +1,4 @@
-# vyline-thme
+# vyline-theme
 
 Vyline のテーマ（VyTheme）プリセット集です。
 
