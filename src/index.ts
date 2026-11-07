@@ -24,6 +24,8 @@ export type VyTheme = {
   radius: number;
   chatBg: string;
   chatImage?: string;
+  /** Blur applied only to the chat wallpaper image. The host app must gate it behind Beta consent. */
+  chatBackgroundBlur?: number;
   pattern: 0 | 1;
 };
 
