@@ -24,10 +24,8 @@ export type VyTheme = {
   radius: number;
   chatBg: string;
   chatImage?: string;
-  /** Experimental acrylic surface controls; the host app must gate these behind its Beta consent. */
-  acrylic?: boolean;
-  acrylicOpacity?: number;
-  acrylicBlur?: number;
+  /** Blur applied only to the chat wallpaper image. The host app must gate it behind Beta consent. */
+  chatBackgroundBlur?: number;
   pattern: 0 | 1;
 };
 
